@@ -1,0 +1,303 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+ 
+
+     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+       <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+       <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+       <link rel="stylesheet" href="css/EFCStyles.css" />
+       
+       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+       
+
+
+    <title>EFC (Erica's Fitness Connection)</title>
+
+</head>
+<body>
+
+    <header class="jumbotron jumnbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                    <img src="TxRangerLogo.png" class="img-fluid" />
+                    <link rel="stylesheet" href="css/EFCStyles.css" />
+                </div>   
+                    <div class="col">
+                        <h1>(EFC) ERICA's Fitness Connection</h1>
+                        <h2>An awesome life to get fit, connected, and fed.</h2>
+                    </div>
+                    <div col="col-md-4 col-xl-2 mt-4">
+                    <a role="button" class="btn btn-lg btn-info" data-toggle="modal" data-target="#reserveModal">
+                    Reserve One-on-One Zoom with Erica</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="" height="30" width="30" /></a>
+            <button class="navbar-toggler" type="button" 
+            data-toggle="collapse" data-target="#nucampNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="nucampNavbar">
+             <ul class="navbar-nav">
+                <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i> Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-info fa-lg"></i> About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i> Sites</a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-address-card fa-lg"></i> Contact</a></li>
+            </ul>
+            <span class="navbar-text ml-auto">
+                <a role="button" data-toggle="modal" data-target="#loginModal">
+                    <i class="fa fa-sign-in"></i> Login
+                </a>
+            </span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="fullscreen nopadding semitrans black">
+        <div id="header">
+            <ul id="Newbies" style="list-style-type: none; display: inline-block;">
+                <h1>Newbies</h1>
+                <div class="btn-group text-left">
+                    <link rel="stylesheet" href="EFCStyles.css">
+                      <button>Sign Up</button>
+                      <button>About EFC</button>
+                      <button>Why EFC</button>
+                      <button>Pricing</button>
+                      <button>How it Works</button>
+                      <button>Careers</button>
+                </div>
+            </ul>
+        
+            <ul id="Newbies" style="list-style-type: none; display: inline-block;">
+                <h1>Zoom Classes</h1>
+                <div class="btn-group text-left">
+                    <link rel="stylesheet" href="EFCStyles.css">
+                      <button>ZOOM: Workout Classes</button>
+                      <button>ZOOM: Cooking Classes</button>
+                      <button>Zoom Calendars</button>
+                      <button>Zoom HAPPY HOUR/button>
+                </div>
+            </ul>
+
+            <ul id="Returners" class="text-right" style="list-style-type: none; display: inline-block;">
+                <h1>Recorded Classes</h1>
+                <div class="btn-group text-right">
+                    <link rel="stylesheet" href="EFCStyles.css">
+                      <button>Recorded: Workout Classes</button>
+                      <button>Recorded: Cooking CLasses</button>
+                </div>
+            </ul>
+        </div>  
+        </div>
+        </div>
+       
+        <div class="container">
+            <div class="row row-content">
+                <div class="col-md-8 mx-auto">
+                    <div id="homeCarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#homeCarousel" data-slide-to="1"></li>
+                            <li data-target="#homeCarousel" data-slide-to="2"></li>
+                        </ol>
+    
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="img/breadcrumb-trail.jpg" alt="Breadcrumb Trail Campground" />
+                                <div class="carousel-caption">
+                                    <h3>Breadcrumb Trail Campground</h3>
+                                    <p class="d-none d-sm-block">Let Nucamp be your guide to this off-the-beaten-path, hike-in-only campground.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/react-lake.jpg" alt="Breadcrumb Trail Campground" />
+                                <div class="carousel-caption">
+                                    <h3>React Lake Campground</h3>
+                                    <p class="d-none d-sm-block">Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/chrome-river.jpg" alt="Breadcrumb Trail Campground" />
+                                <div class="carousel-caption">
+                                    <h3>Chrome River Campground</h3>
+                                    <p class="d-none d-sm-block">Spend a few sunny days and starry nights beneath a canopy of old-growth first at this enchanting spot by the Chrome River.</p>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#homeCarousel" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#homeCarousel" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                            <!-- <div class="btn-group" id="carouselButton"> -->
+                                <button class="btn btn-danger btn-sm" id="carouselButton">
+                                    <i class="fa fa-pause"></i>
+                                </button>
+                    </div>
+                </div>
+            </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h2>Heading</h2>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>Heading</h2>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>Heading</h2>
+            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+        </div>
+      </div> 
+
+    </main>
+    <footer class="site-footer"> 
+        <div class="container">
+                <div class="row">
+                    <div class="col-4 col-sm-2 offset-1">
+                        <h5>Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="aboutus.html">About</a></li>
+                            <li><a href="#">Sites</a></li>
+                            <li><a href="contactus.html">Contact</a></li>
+                        </ul>
+                    </div>
+    
+            <div class="col-6 col-sm-5 text-center">
+                <h5>Social</h5>
+                <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+            </div>
+            <div class="col-sm-4 text-center">
+                <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i> 1-206-555-1234</a><br />
+                <a role="button" class="btn btn-link" href="mailto:campsites@nucamp.co"><i class="fa fa-envelope-o"></i> campsites@nucamp.co</a>
+                </div>
+            </div>
+          </div>
+        </footer>
+
+ 
+ <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+ <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+ <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+ <script src="js/scripts.js"></script>
+   
+  </body>
+</html>
+
+
+______________________________>>>>>>>>>>
+
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+    padding-top: 3.5rem;
+  }
+  body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Lobster", cursive;
+}
+
+h4 {
+    font-family: "Times New Roman", cursive;
+}
+
+h2 {
+    color: #3046C5;
+}
+
+header h2 {
+    color: #CEC8FF;
+}
+
+.site-footer {
+    background-image: linear-gradient(#CEC8FF, white);
+    padding: 20px 0;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+    color: white;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar-dark {
+    background-color: #901CAD;
+}
+
+.tab-content {
+    border: 1px solid #DDD;
+    border-top: none;
+    padding: 10px;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); 
+    
+}
+
+.carousel {
+     border: solid #5637DD;
+    
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+h1{
+    color:  blue
+}
+
+.btn-group button {
+background-color: #4CAF50; /* Green background */
+/* border: 1px solid green; Green border */
+color: white; /* White text */
+padding: 10px 24px; /* Some padding */
+cursor: pointer; /* Pointer/hand icon */
+width: 100%; /* Set a width if needed */
+display: block; /* Make the buttons appear below each other */
+text-align: center;
+}
+
+.btn-group button:not(:last-child) {
+border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+background-color: red;
+}

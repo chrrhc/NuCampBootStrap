@@ -1,0 +1,226 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    /* background-image: url("https://i.pinimg.com/564x/c2/ed/3b/c2ed3b4cf3bd661279db19dc50f08064.jpg"); */
+    /* background-image: url("https://pamleblancadventures.com/wp-content/uploads/2020/03/84434621_542308136400275_81669640652062720_n.jpg"); */ 
+    /* background-image: url("https://figureweightloss.com/wp-content/uploads/2019/01/teamwork-mountain.jpg");  */
+    /* background-image: url("https://prowly-uploads.s3.eu-west-1.amazonaws.com/uploads/8254/assets/139246/large-aa394cd9767afb3c7bce6c5ad8f9dac7.jpg");  */ 
+    /* background-image: url("https://cdn.pixabay.com/photo/2017/02/15/11/05/texture-2068283_1280.jpg"); */ 
+    background-image: url("https://image.freepik.com/free-photo/white-brick-wall-texture-background_1962-1509.jpg");
+    background-repeat: no-repeat, repeat;
+    background-position: center; /* Center the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    padding-top: 50px;
+}
+
+h1, h2, h3 {
+  font-family: "Lobster", cursive;
+   background: rgba(0,0,0,0.5);  
+}
+
+/* h2, h3 { */
+    /* font-family: "Lobster", cursive;   */
+/* } */
+
+h4 {
+    font-family: "Times New Roman", cursive;
+}
+
+h2 {
+    color: #3046C5;
+}
+
+header h2 { 
+    color: #CEC8FF;
+}
+
+.site-footer { 
+    background-image: linear-gradient(#CEC8FF, white);
+    padding: 20px 0;
+}
+
+.jumbotron{
+    background-image: url("https://images-na.ssl-images-amazon.com/images/I/9174k%2BSqTeL._AC_SL1500_.jpg"); */
+    /* background-image: url("https://i.pinimg.com/564x/c2/ed/3b/c2ed3b4cf3bd661279db19dc50f08064.jpg"); */ 
+    /* background-image: url("https://pamleblancadventures.com/wp-content/uploads/2020/03/84434621_542308136400275_81669640652062720_n.jpg"); */
+    /* background-image: url("https://www.birthdaywishes.expert/wp-content/uploads/2019/08/hard-work-quotes-26.jpg"); */
+    /* background-image: url("https://cdn.pixabay.com/photo/2017/02/15/11/05/texture-2068283_1280.jpg"); */
+    background-repeat: no-repeat, repeat;
+    background-position: center; /* Center the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    padding-top: 50px;
+    font-weight: bold; 
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 100px;
+    border-radius: 50px;
+    /* box-shadow: 10px 10px 5px 0px rgba(230, 219, 219, 0.75); */
+  }
+
+.jumbotron h1{ 
+    color: rgb(252, 252, 252);
+    font-size: 50px;
+    font-family: serif;
+}
+
+/* .jumbotron p{ 
+    color: rgb(160, 20, 20);
+    text-emphasis: bold;
+}*/
+
+/* .jumbotron { 
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+    color: white;
+}*/
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar-dark {
+    background-color:rgba(82, 30, 28, 0.678);
+}
+
+#ntext{
+    color: #000000;
+     }
+
+.tab-content { 
+    border: 1px solid #DDD;
+    border-top: none;
+    padding: 10px;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); 
+    
+}
+
+.carousel {
+     border: solid #5637DD;
+    
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+/*body {
+    padding-top: 3.5rem;
+  }
+  body {
+    font-family: "Open Sans", sans-serif;
+}*/
+
+
+.btn-group button {
+background-color: rgb(24, 2, 7); /* Green background */
+/* border: 1px solid green; Green border */
+color: white; /* White text */
+padding: 10px 24px;
+outline-color: rgb(217, 83, 79);
+cursor: pointer;
+width: 30vw; 
+/* display: block; Make the buttons appear below each other */
+text-align: center;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+background-color: black;
+}
+
+
+
+
+
+
+-----------------------------
+
+
+ul {    
+list-style-type: none;
+}
+
+/*body {   
+font-family: Verdana, sans-serif;
+}*/
+
+/* Month header */
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: black;
+  text-align: center;
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/000/093/751/original/running-silhouette-vectors.jpg");
+}
+
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: rgb(219, 83, 83);
+  font-size: 50px;
+  text-transform: uppercase bold thick;
+  letter-spacing: 10px;
+  outline-style: dashed;
+  outline-color: yellow; 
+}
+
+/* Previous button inside month header */
+.month .prev {
+  float: left;
+  padding-top: 10px; 
+}
+
+/* Next button */
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color:#ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: black;
+  text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+  padding: 10px 0;
+  background: rgba(3, 0, 0, 0.753);
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+  padding: 5px;
+  background: #bc3a1aab;
+  color: white !important
+}
